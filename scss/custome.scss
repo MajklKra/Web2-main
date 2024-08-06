@@ -19,10 +19,13 @@
 // Then add additional custom code here
 
 body {
-  font-family: "IbmPlexSans", sans-serif;
-  font-weight:100;
-  background-color: #38373b;
-  color: #ffffff;
+  /* font-family: "IbmPlexSans", sans-serif; */
+  font-family: "Inter", sans-serif;
+/*   font-weight:100; */
+ /*  background-color: #38373b; */
+  background-color: rgb(15 23 42);
+  color: #E2E8F0;
+  line-height: 1.5;
 }
 
 header {
@@ -84,16 +87,22 @@ main {
 
 #c1 {
   display: flex;
-  align-items: center;
+ /*  align-items: center;
   justify-content: center;
-  text-align: justify;
+  text-align: justify; */
+}
+
+#c1>div>div>p
+{
+  border: 1px solid red;
 }
 
 #im1 {
   max-width: 50%;
-}
-
-#id1 {
+  transform: rotate(-1deg); 
+  width: 150px; border-radius: 15px; 
+  filter: drop-shadow(0 0 0.75rem #94a3b8); 
+  opacity: 1;
 }
 
 #c2 {
@@ -111,6 +120,67 @@ main {
     padding-bottom: 0rem;
   }
 }
+
+
+/* vlozka */
+
+#n1b {
+  padding-bottom: 1rem;
+}
+
+#c2b {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  text-align:left;
+  display: block;
+}
+
+#me:hover{
+  #n1b{
+    /* text-shadow: 2px 2px 4px white */
+    color: white;
+    /* font-weight: bold; */
+  }
+
+  h1{
+    color:#E2E8F0;
+  }
+
+  color:#E2E8F0;
+
+  #im1{
+    transform: scale(1.2);
+  }
+}
+
+#me{
+  color: #94a3b8;
+}
+
+#c1b>div>div>p
+{
+  text-align: justify;
+}
+
+#c1b{
+
+}
+
+h1{
+  font-weight: lighter;
+  color: #94a3b8;
+}
+
+
+/* vlozka */
+
+
+
+
+
+
+
 
 #c3 {
   display: flex;

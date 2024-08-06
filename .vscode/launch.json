@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "C:/Users/krani/OneDrive/Plocha/Web2-main/index.html",
+            "url": "C:/Users/krani/OneDrive/Plocha/Web3/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
