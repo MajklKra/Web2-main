@@ -20250,8 +20250,10 @@ main section {
   padding-top: 75px;
 }
 main .card {
-  background-color: #464647;
-  color: inherit;
+  /*  background-color: #464647;
+   color: inherit; */
+  background-color: #E2E8F0;
+  color: #94A3B8;
 }
 
 #c1 {

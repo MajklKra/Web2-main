@@ -29,7 +29,7 @@ body {
 }
 
 header {
-  // position: relative;
+  //position: relative;
   // min-height: 100vh;
   /* background-image: url("../images/Hilite.jpg"); */
   /*  background-repeat: no-repeat;
@@ -80,8 +80,11 @@ main {
     padding-top: 75px;
   }
   .card {
-    background-color: #464647;
-    color: inherit;
+   /*  background-color: #464647;
+    color: inherit; */
+
+    background-color:#E2E8F0;
+    color: #94A3B8;
   }
 }
 
@@ -171,7 +174,6 @@ h1{
   font-weight: lighter;
   color: #94a3b8;
 }
-
 
 /* vlozka */
 
