@@ -20401,6 +20401,11 @@ svg {
   color: #E2E8F0;
 }
 
+.card {
+  /*   border: 5px solid red; */
+  filter: drop-shadow(0 0 0.3rem #94a3b8);
+}
+
 /* vlozka 2 */
 #c3 {
   display: flex;
