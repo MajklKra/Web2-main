@@ -220,7 +220,56 @@ svg{
 
 /* vlozka 1 */
 
+/* vlozka 2 */
 
+
+#n3{
+  font-weight:normal;
+  margin-bottom: 1rem;
+}
+
+#n3b{
+
+  font-weight:normal;
+  margin-bottom: 1rem;
+  
+}
+
+#n3c{
+
+  font-weight:normal;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  
+}
+
+
+.card{
+  font-weight: normal;
+}
+
+.card:hover{
+  border-radius: 15px;
+  transform: scale(1.05);
+}
+
+#projects:hover{
+
+  #n3{
+    color:white;
+  }
+
+  #n3b{
+    color:#E2E8F0;
+  }
+
+  #n3c{
+    color:#E2E8F0;
+  }
+
+}
+
+/* vlozka 2 */
 
 
 
@@ -250,10 +299,6 @@ svg{
   align-items: center;
   justify-content: center;
   text-align: justify;
-}
-
-#n3 {
-  padding-bottom: 1rem;
 }
 
 .card-body{
